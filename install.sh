@@ -12,8 +12,8 @@ chsh -s /bin/zsh
 # copy zpreztorc (symlink them)
 cp ./.vimrc ~/
 
-# set homebrew env
-echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.zshenv
+# set homebrew env (already set in my prezto fork)
+#echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.zshenv
 
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
